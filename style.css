@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(190, 227, 229);
+    font-family: verdana;
+    width: 920px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+
+.posts {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+article {
+    border: solid black;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.titulo-post {
+    color: rgb(61, 61, 61);
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.imagem img {
+    width: 900px;
+    border-radius: 5px;
+}
+
+
+
+.conteudo {
+    margin: 0px;
+    margin-left: 10px;
+    text-align: justify;
+    margin-bottom: 15px;
+    width: 900px;
+}
+
+.contatos {  
+    margin: 0px
+}
+
+.lista {
+    list-style-type: none;
+    display: flex;
+}
+
+.lista li a {
+    text-decoration: none;
+    margin-left: 10px;
+} 
