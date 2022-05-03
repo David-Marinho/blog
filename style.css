@@ -1,7 +1,7 @@
 body {
     background-color: rgb(190, 227, 229);
     font-family: verdana;
-    width: 920px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -18,15 +18,18 @@ body {
     margin-bottom: 15px;
 }
 
-article {
+.conteudo {
     border: solid black;
-    border-width: 1px;
-    border-radius: 20px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
     background-color: white;
     margin-bottom: 15px;
 }
 
 .titulo-post {
+    padding-top: 20px;
     color: rgb(61, 61, 61);
     margin: 0;
     margin-top: 15px;
@@ -34,7 +37,7 @@ article {
     text-align: center;
 }
 
-.imagem {
+.midia {
     text-align: center;
     margin-bottom: 5px;
 }
@@ -46,12 +49,12 @@ article {
 
 
 
-.conteudo {
-    margin: 0px;
-    margin-left: 10px;
+.texto {
+    margin: 20px; /* top right botom left*/
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
     text-align: justify;
-    margin-bottom: 15px;
-    width: 900px;
 }
 
 .contatos {  
