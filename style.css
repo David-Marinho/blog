@@ -1,39 +1,46 @@
+:root{
+    --bg-color-1: rgb(190, 227, 229);
+    --bg-color-2: rgb(255, 255, 255);
+
+}
+
 body {
-    background-color: rgb(190, 227, 229);
+    background-color: var(--bg-color-1);
     font-family: verdana;
-    width: 1200px;
     margin: auto;
+}
+
+header{
+    background-color: var(--bg-color-2);
 }
 
 .titulo {
     text-align: center;
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0px;
     font-size: 48px;
+    padding-bottom: 20px;
 }
 
 .posts {
     font-size: 18px;
     margin: 0px;
     margin-bottom: 15px;
+
 }
 
 .conteudo {
-    border: solid black;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    background-color: white;
-    margin-bottom: 15px;
+
+    background-color: var(--bg-color-2);
+    margin: 191px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .titulo-post {
     padding-top: 20px;
     color: rgb(61, 61, 61);
     margin: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -42,31 +49,46 @@ body {
     margin-bottom: 5px;
 }
 
-.imagem img {
-    width: 900px;
+.midia img{
+    width: 560px;
     border-radius: 5px;
 }
 
 
 
 .texto {
-    margin: 20px; /* top right botom left*/
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
     text-align: justify;
 }
 
+.botao{
+    text-align: right;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
 .contatos {  
-    margin: 0px
+    margin: 0px;
+    padding: 20px;
 }
 
 .lista {
     list-style-type: none;
     display: flex;
+    margin: 0px;
 }
 
 .lista li a {
     text-decoration: none;
     margin-left: 10px;
 } 
+
+footer{
+    background-color: var(--bg-color-2);
+    padding-bottom: 20px;
+}
+
+.icons{
+    width: 35px;
+}
