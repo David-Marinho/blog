@@ -1,2 +1,2 @@
 # blog
- blog simples para testar html e css
+ Projeto de blog para aprender a usar HTML e CSS
