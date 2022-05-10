@@ -39,7 +39,7 @@ header{
 .area-de-post button{
     background-color: rgb(239, 239, 239);
     border: 0px;
-    width: 100%;
+    width: 90%;
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -54,11 +54,13 @@ header{
 h3{
     top: -73px;
     left: 296px;
+    width: fit-content;
 }
 
 .conteudo{
     top: -70px;
     left: 296px;
+    width: fit-content;
 }
 
 article{
