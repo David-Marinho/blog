@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
     <title>Blog com html e css</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="titulo">Blog </h1>
+    <header> <!-- cabeçalho -->
+        <h1>Blog em desenvolvimento</h1> <!-- titulo -->
+        <nav> <!-- menu -->
+            <span class="nav-item">Home</span>
+            <span class="nav-item">Sobre</span>
+            <span class="nav-item">Contatos</span>
+        </nav>
     </header>
 
-    <section class="area-de-post">
-        <article>
-            <a href="">
-                <button>
-                    <img class="midia post" src="imagem.png" alt="imagem do post" >
-                    <h3 class="post">primeiro post</h3>
-                    <p class="conteudo post">aqui vai ficar uma sinopse do assunto que sera abordado no post</p>
-                </button>
-            </a>
-        </article>
+    <section> <!-- corpo -->
 
-        <article>
-            <a href="">
-                <button>
-                    <img class="midia post" src="imagem.png" alt="">
-                    <h3 class="post">Post com video</h3>
-                    <p class="conteudo post">aqui vai ficar uma sinopse do assunto que sera abordado no post</p>
-                </button>
-            </a>
-        </article>
+        <main>
+            <div class="post"> <!-- post -->
+                <img class="post-imagem" src="imagens/imagem.png" alt="">
+                <div class="conteudo">
+                    <h2>Postagem de teste</h2>
+
+                    <p>
+                        Olá, mundo. Essa é a minha primeira postagem nesse novo blog. Clique no botão ali pra saber mais
+                    </p>
+
+                </div>  
+                <a href=""><button class="saiba-mais">Saiba mais</button></a>
+            </div>
+        </main>
+    
+        <aside class="sobre-mim">
+            <div>
+                <img class="minha-foto" src="imagens/img-placeholder.png" alt="">
+                <h2>Sobre mim</h2>
+
+                <p class="texto-sobre-mim">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis autem ea voluptate ut tempore reprehenderit hic eveniet eum animi quaerat corrupti, eaque aperiam non debitis? Molestias recusandae quo fuga ducimus!
+                </p> 
+
+            </div>         
+        </aside>
+
     </section>
 
     <footer>
-        <header>
-            <h2 class="contatos">contatos:</h2>
-        </header> 
-        <ul class="lista">
-            <li><a href="https://github.com/David-Marinho" target="blank"><img src="github-icon.png" alt="github"></a></li>
-            <li><a href="https://www.linkedin.com/in/david-pequeno-marinho/" target="blank"><img src="Linkedin-icon.png" alt="linkedin"></a></li>  
+        <h2>Me siga</h2>
+        <ul class="lista-icones">
+            <li class="item"><img src="imagens/github-icon.png" alt="GitHub"></li>
+            <li class="item"><img src="imagens/Linkedin-icon.png" alt="Linkedin"></li>
         </ul>
     </footer>
 </body>
