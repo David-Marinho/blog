@@ -8,14 +8,21 @@
 h2{
     margin-top: 0px;
 }
+body{
+    margin: 0px;
+}
 
 
 /*-----------------------------------------------------Cabeçalho--------------------------------------------------------------------*/
 
 header{
     text-align: center;
-    margin-bottom: 20px;
-    background-color: var(--bg-color)
+    padding-bottom: 150px;
+    background-color: #44525F;
+}
+
+header h1{
+    margin-top: 0px;
 }
 
 nav{
@@ -31,8 +38,11 @@ nav{
 /*-----------------------------------------------------Corpo------------------------------------------------------------------------*/
 
 section{
+    width: 1300px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    margin: -90px 25px 0px 25px;
 }
 
 main{
@@ -47,7 +57,6 @@ aside{
 /*-----------------------------------------------------Post-------------------------------------------------------------------------*/
 
 .post{
-    background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: flex-start;
     height: 160px;
@@ -55,9 +64,14 @@ aside{
 }
 
 .post-imagem{
-    width: 300px;
+    width: 125px;
     margin: 5px 10px;
     border-radius: var(--border-radius);
+}
+
+.post-titulo{
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .conteudo{
@@ -75,12 +89,17 @@ aside{
 
 .minha-foto{
     border-radius: 100%;
+    width: 200px;
 }
 
 .sobre-mim div{
-    width: 300px;
+    width: 250px;
     position: relative;
-    left: 20%;
+    padding: 10px;
+    background-color: #558C8C;
+    border-radius: var(--border-radius);
+    margin-left: 27%;
+    margin-top: -2px;
 }
 
 .sobre-mim{
@@ -101,8 +120,4 @@ aside{
 
 .item{
     margin: 0px 10px;
-}
-
-footer{
-    background-color: var(--bg-color);
 }
