@@ -12,6 +12,10 @@ body{
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: #558C8C;
+}
 
 /*-----------------------------------------------------Cabeçalho--------------------------------------------------------------------*/
 
@@ -48,6 +52,7 @@ section{
 main{
     width: 70%;
     margin-left: 10px;
+    padding-top: 30px;
 }
 
 aside{
@@ -98,8 +103,8 @@ aside{
     padding: 10px;
     background-color: #558C8C;
     border-radius: var(--border-radius);
-    margin-left: 27%;
-    margin-top: -2px;
+    margin-left: 50px;
+    margin-top: 57px;
 }
 
 .sobre-mim{
@@ -116,6 +121,7 @@ aside{
     display: flex;
     justify-content: flex-start;
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 .item{
