@@ -1,75 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="height=device-height, initial-scale=1.0">
-    <title>Blog com html e css</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>blog</title>
 </head>
-
 <body>
-    <header> <!-- cabeçalho -->
-        <h1>Blog em desenvolvimento</h1> <!-- titulo -->
-        <nav> <!-- menu -->
-            <a href=""><span class="nav-item">Home</span></a>
-            <a href=""><span class="nav-item">Sobre</span></a>
-            <a href=""><span class="nav-item">Contatos</span></a>
-        </nav>
+    <header>
+        <h1 id="titulo-site">Blog (em construçao)</h1>
+        <ul id="menu">
+            <li class="itens"><a href="">Home</a></li>
+            <li class="itens"><a href="">Sobre</a></li>
+            <li class="itens"><a href="">Contatos</a></li>
+        </ul>
     </header>
 
-    <section> <!-- corpo -->
-
+    <section id="conteudo">
         <main>
-            <div class="post"> <!-- post -->
-                <img class="post-imagem" src="imagens/imagem-capa.webp" alt="">
-                <div class="conteudo">
-                    <h2 class="post-titulo">Postagem de teste</h2>
+            <ul id="post-list">
+                <li>
+                    <div class="post">
+                        <div class="bg-post"></div>
+                            <div class="texto">
+                                <h3 class="titulo">Titulo</h3>
+                                <p class="paragrofo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam nihil doloribus deleniti eius sint dolorem ducimus consequuntur, eum animi hic.</p>
+                            </div> 
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="post">
+                        <div class="bg-post"></div>
+                            <div class="texto">
+                                <h3 class="titulo">Titulo</h3>
+                                <p class="paragrofo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam nihil doloribus deleniti eius sint dolorem ducimus consequuntur, eum animi hic.</p>
+                            </div> 
+                    </div>
+                </li>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis magna consectetur nibh efficitur cursus rhoncus sed sem. Vestibulum aliquam feugiat enim quis malesuada. Sed vel enim justo
-                    </p>
-
-                </div> 
-            </div>
+                <li>
+                    <div class="post">
+                        <div class="bg-post"></div>
+                            <div class="texto">
+                                <h3 class="titulo">Titulo</h3>
+                                <p class="paragrofo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam nihil doloribus deleniti eius sint dolorem ducimus consequuntur, eum animi hic.</p>
+                            </div> 
+                    </div>
+                </li>
+            </ul>
             
-            <hr>
-
-            <div class="post"> <!-- post -->
-                <img class="post-imagem" src="imagens/imagem-capa.webp" alt="">
-                <div class="conteudo">
-                    <h2 class="post-titulo">Postagem de teste</h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis magna consectetur nibh efficitur cursus rhoncus sed sem. Vestibulum aliquam feugiat enim quis malesuada. Sed vel enim justo
-                    </p>
-
-                </div> 
-            </div>
-
         </main>
     
-        <aside class="sobre-mim">
-            <div>
-                <img class="minha-foto" src="imagens/img-placeholder.png" alt="">
-                <h2>Sobre mim</h2>
-
-                <p class="texto-sobre-mim">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis autem ea voluptate ut tempore reprehenderit hic eveniet eum animi quaerat corrupti, eaque aperiam non debitis? Molestias recusandae quo fuga ducimus!
-                </p> 
-
-            </div>        
+        <aside>
+            <ul id="lista-posts">
+                <li class="itens">
+                    <img class="img-lista" src="" alt="">
+                    <h3 class="titulo-lista">Titulo</h3>
+                    <p class="paragrafo-lista">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+                <hr>
+                <li>
+                    <img class="img-lista" src="" alt="">
+                    <h3 class="titulo-lista">Titulo</h3>
+                    <p class="paragrafo-lista">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+            </ul>
         </aside>
-
     </section>
-
-    <footer>
-        <h2>Me siga</h2>
-        <ul class="lista-icones">
-            <li class="item"><img src="imagens/github-icon.png" alt="GitHub"></li>
-            <li class="item"><img src="imagens/Linkedin-icon.png" alt="Linkedin"></li>
-        </ul>
-    </footer>
+    
 </body>
 </html>
