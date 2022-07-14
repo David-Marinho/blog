@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-color: #F4F1DE;
+    min-width: 1180px;
 }
 
 h1, h2, h3{
@@ -15,28 +17,64 @@ ul, li, a{
 }
 
 header{
+    width: 100%;
     text-align: center;
     padding-bottom: 1px;
-    margin-bottom: 65px;
+    margin-bottom: 30px;
+}
+
+#titulo{
+    color: #81B29A;
+}
+
+#menu{
+    position: relative;
+    left: 520px;
+    width: 300px;
+    height: 40px;
+    background-color: #219EBC;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-radius: 3px;
 }
 
 #menu .itens{
-    display: inline;
-    padding-right: 20px;
+    border-left: 1px solid black;
+}
+
+#menu .primeiro{
+    border: 0px;
+}
+
+.itens a:hover{
+    color: white;
 }
 
 main{
-    margin-right: 10px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 50px 0px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #destaques{
-    padding: 0px 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    grid-column-gap: 1rem; 
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .post{
     text-align: center;
+    padding: 5px;
+    border-radius: 5px;
     width: 365px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.116);
+}
+
+.foco{
+    background-color: #023047;
+    color: #81B29A;
 }
